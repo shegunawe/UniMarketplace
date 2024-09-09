@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import CountDown from '../../components/CountDown'; // Adjust the path according to your folder structure
+import CountDown from '../src/components/Events/CountDown'; 
 import axios from 'axios';
 import { server } from '../../server';
 

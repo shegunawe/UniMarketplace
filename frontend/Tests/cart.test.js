@@ -42,7 +42,7 @@ describe("Cart Component", () => {
 
     expect(screen.getByText("1 items")).toBeInTheDocument();
     expect(screen.getByText("Product 1")).toBeInTheDocument();
-    expect(screen.getByText("US$100")).toBeInTheDocument();
+    expect(screen.getByText("NGN100")).toBeInTheDocument();
   });
 
   it("should render 'Cart Items is empty!' when cart is empty", () => {

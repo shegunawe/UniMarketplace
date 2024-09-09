@@ -220,8 +220,6 @@ const PaymentInfo = ({
     },
     publicKey: "pk_test_39c684471e1f024442b84491953126a69ce0ea3d" ,
     text: "Pay Now",
-    onSuccess: () =>
-      alert("Thanks for doing business with us! Come back soon!!"),
     onClose: () => alert("Wait! You need this product, don't go!!!!"),
   }
 
